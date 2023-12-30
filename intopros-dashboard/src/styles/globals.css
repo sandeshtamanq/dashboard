@@ -1,0 +1,59 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ant-form-item-label {
+  padding-bottom: 0px !important;
+}
+
+.ant-form-item-label label {
+  font-weight: 500;
+}
+
+/* Sticky form title & action bar */
+.action-bar {
+  position: sticky;
+  top: 64px;
+  z-index: 10;
+  padding: 10px 0 10px 0;
+  background: #f1f2f4;
+}
+
+/* Rich text editor */
+.ql-editor {
+  min-height: 200px;
+  background: #fff !important;
+}
+
+/* Custom scroll bar */
+aside::-webkit-scrollbar {
+  width: 7px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: rgb(99, 98, 98);
+  outline: 1px solid rgb(76, 76, 77);
+}
+
+/* Custom margins */
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* Custom stuffs */
+.shadow {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
